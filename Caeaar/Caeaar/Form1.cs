@@ -49,6 +49,7 @@ namespace Caeaar
                 
             }
             tbout.Text = ausgabe;
+            tbin.Text = "";
         }
 
         private void btnentschl_Click(object sender, EventArgs e)
