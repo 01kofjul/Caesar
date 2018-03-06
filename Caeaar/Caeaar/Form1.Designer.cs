@@ -106,9 +106,9 @@
             // 
             this.btnentschl.Location = new System.Drawing.Point(262, 226);
             this.btnentschl.Name = "btnentschl";
-            this.btnentschl.Size = new System.Drawing.Size(86, 23);
+            this.btnentschl.Size = new System.Drawing.Size(86, 35);
             this.btnentschl.TabIndex = 7;
-            this.btnentschl.Text = "Entschlüsseln";
+            this.btnentschl.Text = "Ausgabe entschlüsseln";
             this.btnentschl.UseVisualStyleBackColor = true;
             this.btnentschl.Click += new System.EventHandler(this.btnentschl_Click);
             // 
