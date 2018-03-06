@@ -29,32 +29,43 @@
         private void InitializeComponent()
         {
             this.btnver = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnver
             // 
-            this.btnver.Location = new System.Drawing.Point(209, 323);
+            this.btnver.Location = new System.Drawing.Point(228, 87);
             this.btnver.Name = "btnver";
             this.btnver.Size = new System.Drawing.Size(75, 23);
             this.btnver.TabIndex = 0;
-            this.btnver.Text = "button1";
+            this.btnver.Text = "Verschlüsseln";
             this.btnver.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(46, 61);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(448, 20);
+            this.textBox1.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(710, 479);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnver);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnver;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
